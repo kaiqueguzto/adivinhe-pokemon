@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #4b0969;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+.container h1 {
+  font-size: 48px;
+  color: #B61DB9; 
+}
+
+.container form {
+  margin-top: 15px;
+  width: 100%;
+}
+
+
+.container form #pokemon-input {
+  width: 60%;
+
+  border: 1px solid #78a9dd;
+  padding: 8px;
+  font-size: 18px;
+  color: #333;
+}
+
+
+.container form button {
+  width: 63%;
+  
+  padding: 8px;
+  border: 0;
+  margin-top: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  color: #333;
+  background-color: #B61DB9  ;
+}
+
+.container .pokemon-image img {
+  width: 65%;
+}
+
+.container .result {
+  width: 100%;
+  padding: 16px;
+
+  margin-top: -60px;
+}
+
+.container span {
+  font-size: 22px;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .result button {
+  padding: 8px;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 17px;
+  width: 40%;
+
+  color:#FFF;
+  cursor: pointer;
+  background-color: #B61DB9;
+  border: 0;
+}
